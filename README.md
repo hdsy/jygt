@@ -6,7 +6,7 @@ to get your last wanted,do the things that should be done today
 ### Physical exercise 
 
 |~key|~remark|
-|||
+---|:--:|---:
 |:project:||
 |:plan:||
 |:Record:||
@@ -24,9 +24,9 @@ to get your last wanted,do the things that should be done today
 内容|内容|内容
 内容|内容|内容
 
-(```)
+```
     function fun(){
          echo "这是一句非常牛逼的代码";
     }
     fun();
-(```)
+```
