@@ -5,7 +5,7 @@ to get your last wanted,do the things that should be done today
 
 ### Physical exercise 
 
-|~key|~remark
+|key|remark
 :---|--
 |project|
 |plan|
@@ -15,16 +15,8 @@ to get your last wanted,do the things that should be done today
 |reward|
 
 ### Homework
-|~key|~remark
+|key|remark
 :---|--
 |Release|
 |Claim|
 |evaluate|
-
-
-```
-    function fun(){
-         echo "coding";
-    }
-    fun();
-```
