@@ -22,17 +22,67 @@ To get your last wanted,do the things that should be done today!
 |evaluate| coacher give feedback to student
 
 
+
+
 ## 2. Directory structure and list
+```
+graph TD
++-->release
+    release-->Client
+        Client-->PC
+            PC-->H5
+            PC-->Windows
+        Client-->SmartPhone
+            SmartPhone-->WeChat
+                WeChat-->Miniprogram
+                WeChat-->Subscriber
+            SmartPhone-->H5
+            SmartPhone-->iOS
+            SmartPhone-->Android
+    release-->Agent
+    release-->Organization
+    release-->Logic
+    release-->Cache
+    release-->Data
++-->doc
+
+    doc-->marketing
+    doc-->product
+    doc-->design
+    doc-->coding
+    doc-->testing
+    doc-->deployment
+    doc-->operation
++-->code
+    code-->h5
+    code-->ios
+    code-->android
+    code-->php
+    code-->cpp
+    code-->python
+    code-->java
+    code-->mysql
+```
 
 |top|secondary|third|forth|fivth|remark
 :---|---|--|--|--|--
 release|||||
-| |client||||
-| |agent||||
-| |business||||
-| |logic||||
-| |cache||||
-| |data||||
+| |Client||||
+| ||PC| |||
+| || |H5||
+| || |Windows||
+| ||SmartPhone| |||
+| |||Wechat |||
+| || ||Miniprogram||
+| || ||Subscriber||
+| |||H5|||
+| |||iOS|||
+| |||Android|||
+| |Agent||||
+| |Organization||||
+| |Logic||||
+| |Cache||||
+| |Data||||
 doc|||||
 | |marketing||||
 | |product||||
@@ -51,4 +101,6 @@ code||||||
 | |java||||
 | |mysql||||
 README.md|||||introduce for this repos
-LICENSE|||||illegreement for this repos
+LICENSE|||||illegreement for this repso
+
+
